@@ -66,7 +66,7 @@ python test.py --dataroot <datapath> --name GANPOP --gpu_ids 0 --display_id 0
 © [Durr Lab](https://durr.jhu.edu) - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-- This code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [FusionNet_Pytorch] (https://github.com/GunhoChoi/FusionNet_Pytorch)
+- This code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [FusionNet_Pytorch](https://github.com/GunhoChoi/FusionNet_Pytorch)
 * Subsidized computing resources were provided by Google Cloud.
 
 ## Reference
