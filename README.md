@@ -5,7 +5,7 @@ If you use this code, please cite:
 
 Coming soon...
 
-<img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Fig_1.jpg" width="1200"/>   <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Figure2.jpg" width="1800"/> 
+<img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Fig_1.jpg" width="600"/>   <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Figure2.jpg" width="600"/> 
 
 ## Setup
 
