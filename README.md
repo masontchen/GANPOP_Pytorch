@@ -25,9 +25,9 @@ Coming soon...
 All image pairs must be 256x256 and paired together in 256x512 images. '.png' and '.jpg' files are acceptable. Data needs to be arranged in the following order:
 
 ```bash
-SOMEPATH # Some arbitrary path
+GANPOP_Pytorch # Path to all the code
 └── Datasets # Datasets folder
-      └── XYZ_Dataset # Active dataset
+      └── XYZ_Dataset # Name of your dataset
             ├── test
             └── train
 ```
@@ -37,10 +37,10 @@ SOMEPATH # Some arbitrary path
 
 To train a model:
 ```
-python train.py --dataroot <datapath> --name GANPOP  --gpu_ids 0 --display_id 0 
+python train.py --dataroot <datapath> --name <project_name>  --gpu_ids 0 --display_id 0 
 --lambda_L1 60 --niter 100 --niter_decay 100 --pool_size 64 --loadSize 256 --fineSize 256 --gan_mode lsgan --lr 0.0002 --model pix2pix --which_netG fusion
 ```
-- To view epoch-wise intermediate training results, `./checkpoints/GANPOP/web/index.html`
+- To view epoch-wise intermediate training results, `./checkpoints/<project_name>/web/index.html`
 - `--niter` number of epochs with constant learning rate `--niter_decay` number of epochs with linearly decaying learning rate
 
 <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Network.jpg" width="512"/> 
@@ -53,10 +53,10 @@ Coming soon...
 
 To test the model:
 ```
-python test.py --dataroot <datapath> --name GANPOP --gpu_ids 0 --display_id 0 
+python test.py --dataroot <datapath> --name <project_name> --gpu_ids 0 --display_id 0 
 --loadSize 256 --fineSize 256 --model pix2pix
 ```
-- The test results will be saved to a html file here: `./results/GANPOP/test_latest/index.html`.
+- The test results will be saved to a html file here: `./results/<project_name>/test_latest/index.html`.
 
 ### Issues
 
