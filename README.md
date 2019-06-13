@@ -5,6 +5,7 @@ If you use this code, please cite:
 
 Coming soon...
 
+<img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Fig_1.jpg" width="1200"/>   <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Figure2.jpg" width="1800"/> 
 
 ## Setup
 
@@ -40,6 +41,8 @@ python train.py --dataroot <datapath> --name GANPOP  --gpu_ids 0 --display_id 0
 ```
 - To view epoch-wise intermediate training results, `./checkpoints/GANPOP/web/index.html`
 - `--niter` number of epochs with constant learning rate `--niter_decay` number of epochs with linearly decaying learning rate
+
+<img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Network.jpg" width="1350"/> 
 
 ### Pre-trained Models
 
