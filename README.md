@@ -39,10 +39,16 @@ GANPOP_Pytorch # Path to all the code
 To train a model:
 ```
 python train.py --dataroot <datapath> --name <experiment_name>  --gpu_ids 0 --display_id 0 
---lambda_L1 60 --niter 100 --niter_decay 100 --pool_size 64 --loadSize 256 --fineSize 256 --gan_mode lsgan --lr 0.0002 --model pix2pix --which_model_netG fusion
+--lambda_L1 60 --niter 100 --niter_decay 100 --pool_size 64 --loadSize 256 --fineSize 256 --gan_mode lsgan --lr 0.0002 --which_model_netG fusion
 ```
 - To view epoch-wise intermediate training results, `./checkpoints/<experiment_name>/web/index.html`
-- `--niter` number of epochs with constant learning rate `--niter_decay` number of epochs with linearly decaying learning rate
+- `--lambda_L1` weight of L1 loss in the cost function
+- `--niter` number of epochs with constant learning rate 
+- `--niter_decay` number of epochs with linearly decaying learning rate
+- `--pool_size` number of past results to sample from by the discriminator
+- `--lr` learning rate
+- `--gan_mode` type of GAN used, either lsgan or vanilla
+- `--which_model_netG` generator type; fusion, unet_256, or resnet_9blocks
 
 <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Network.jpg" width="512"/> 
 
