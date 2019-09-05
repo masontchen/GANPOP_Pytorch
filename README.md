@@ -1,5 +1,5 @@
 # GANPOP
-GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images
+Code, dataset, and trained models for "GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images"
 
 If you use this code, please cite:
 
