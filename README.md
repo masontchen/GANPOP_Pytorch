@@ -48,7 +48,7 @@ python train.py --dataroot <datapath> --name <experiment_name>  --gpu_ids 0 --di
 
 ### Pre-trained Models
 
-Example pre-trained models for each experiment are saved in `checkpoints` folder. "AC" and "DC" in the folder names specify the type of input images, and "corr" stands for profilometry-corrected experiment. 
+Example pre-trained models for each experiment are saved under `checkpoints` folder. "AC" and "DC" in the folder names specify the type of input images, and "corr" stands for profilometry-corrected experiment. These models are all trained on human esophagus samples 1-6, human hands and feet 1-6, and 6 phantoms. Test patches are available under `dataset` folder. To validate the models, please follow the directions in the next section ("Testing").
 
 
 
