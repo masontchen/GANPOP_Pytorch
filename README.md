@@ -64,7 +64,7 @@ python test.py --dataroot <datapath> --name <experiment_name> --gpu_ids 0 --disp
 
 ### Dataset
 
-The full-image dataset can be downloaded [here] (https://drive.google.com/drive/folders/1o_hIv5xmkO1_jD34Jo6JD0V1kXm5SdiM?usp=sharing).
+The full-image dataset can be downloaded [here](https://drive.google.com/drive/folders/1o_hIv5xmkO1_jD34Jo6JD0V1kXm5SdiM?usp=sharing).
 
 ### Issues
 
