@@ -3,7 +3,7 @@ GANPOP: Generative Adversarial Network Prediction of Optical Properties from Sin
 
 If you use this code, please cite:
 
-Coming soon...
+Chen, Mason T., et al. "GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images." arXiv preprint arXiv:1906.05360 (2019).
 
 <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Fig_1.jpg" width="512"/> 
 
