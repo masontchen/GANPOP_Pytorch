@@ -41,7 +41,7 @@ To train a model:
 python train.py --dataroot <datapath> --name <experiment_name>  --gpu_ids 0 --display_id 0 
 --lambda_L1 60 --niter 100 --niter_decay 100 --pool_size 64 --loadSize 256 --fineSize 256 --gan_mode lsgan --lr 0.0002 --model pix2pix --which_model_netG fusion
 ```
-- To view epoch-wise intermediate training results, `./checkpoints/<project_name>/web/index.html`
+- To view epoch-wise intermediate training results, `./checkpoints/<experiment_name>/web/index.html`
 - `--niter` number of epochs with constant learning rate `--niter_decay` number of epochs with linearly decaying learning rate
 
 <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Network.jpg" width="512"/> 
