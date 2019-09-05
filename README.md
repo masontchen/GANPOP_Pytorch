@@ -48,7 +48,7 @@ python train.py --dataroot <datapath> --name <experiment_name>  --gpu_ids 0 --di
 
 ### Pre-trained Models
 
-Example pre-trained models for each experiment can be downloaded [here](https://drive.google.com/drive/folders/1Qyh3k0MTiSJqTVIJnZ1KNFERv8NWPkR3?usp=sharing). 
+Example pre-trained models for each experiment can be downloaded [here](https://drive.google.com/open?id=1Qyh3k0MTiSJqTVIJnZ1KNFERv8NWPkR3). 
 - "AC" and "DC" specify the type of input images, and "corr" stands for profilometry-corrected experiment. 
 - These models are all trained on human esophagus samples 1-6, human hands and feet 1-6, and 6 phantoms. 
 - Test patches are available under `dataset` folder, including human esophagus 7-8, hands and feet 7-8, 4 ex-vivo pigs, 1 live pig, and 12 phantoms. To validate the models, please save the downloaded subfolders with models under `checkpoints` and follow the directions in the next section ("Testing").
@@ -64,7 +64,7 @@ python test.py --dataroot <datapath> --name <experiment_name> --gpu_ids 0 --disp
 
 ### Dataset
 
-The full-image dataset can be downloaded [here]. (https://drive.google.com/drive/folders/1o_hIv5xmkO1_jD34Jo6JD0V1kXm5SdiM?usp=sharing)
+The full-image dataset can be downloaded [here] (https://drive.google.com/drive/folders/1o_hIv5xmkO1_jD34Jo6JD0V1kXm5SdiM?usp=sharing).
 
 ### Issues
 
