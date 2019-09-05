@@ -5,6 +5,7 @@ If you use this code, please cite:
 
 Chen, Mason T., et al. "GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images." arXiv preprint arXiv:1906.05360 (2019).
 
+
 <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Fig_1.jpg" width="512"/> 
 
 ## Setup
@@ -37,8 +38,8 @@ GANPOP_Pytorch # Path to all the code
 
 To train a model:
 ```
-python train.py --dataroot <datapath> --name <project_name>  --gpu_ids 0 --display_id 0 
---lambda_L1 60 --niter 100 --niter_decay 100 --pool_size 64 --loadSize 256 --fineSize 256 --gan_mode lsgan --lr 0.0002 --model pix2pix --which_netG fusion
+python train.py --dataroot <datapath> --name <experiment_name>  --gpu_ids 0 --display_id 0 
+--lambda_L1 60 --niter 100 --niter_decay 100 --pool_size 64 --loadSize 256 --fineSize 256 --gan_mode lsgan --lr 0.0002 --model pix2pix --which_model_netG fusion
 ```
 - To view epoch-wise intermediate training results, `./checkpoints/<project_name>/web/index.html`
 - `--niter` number of epochs with constant learning rate `--niter_decay` number of epochs with linearly decaying learning rate
@@ -47,14 +48,16 @@ python train.py --dataroot <datapath> --name <project_name>  --gpu_ids 0 --displ
 
 ### Pre-trained Models
 
-Coming soon...
+Example pre-trained models for each experiment are saved in `checkpoints` folder. "AC" and "DC" in the folder names specify the type of input images, and "corr" stands for profilometry-corrected experiment. 
+
+
 
 ### Testing
 
 To test the model:
 ```
-python test.py --dataroot <datapath> --name <project_name> --gpu_ids 0 --display_id 0 
---loadSize 256 --fineSize 256 --model pix2pix
+python test.py --dataroot <datapath> --name <experiment_name> --gpu_ids 0 --display_id 0 
+--loadSize 256 --fineSize 256 --model pix2pix --which_model_netG fusion
 ```
 - The test results will be saved to a html file here: `./results/<project_name>/test_latest/index.html`.
 
