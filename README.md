@@ -48,7 +48,7 @@ python train.py --dataroot <datapath> --name <experiment_name>  --gpu_ids 0 --di
 
 ### Pre-trained Models
 
-Example pre-trained models for each experiment are saved under `checkpoints` folder. "AC" and "DC" in the folder names specify the type of input images, and "corr" stands for profilometry-corrected experiment. These models are all trained on human esophagus samples 1-6, human hands and feet 1-6, and 6 phantoms. Test patches are available under `dataset` folder. To validate the models, please follow the directions in the next section ("Testing").
+Example pre-trained models for each experiment can be downloaded [here](https://drive.google.com/drive/folders/1Qyh3k0MTiSJqTVIJnZ1KNFERv8NWPkR3?usp=sharing). "AC" and "DC" specify the type of input images, and "corr" stands for profilometry-corrected experiment. These models are all trained on human esophagus samples 1-6, human hands and feet 1-6, and 6 phantoms. Test patches are available under `dataset` folder. To validate the models, please save the models under `checkpoints` folder and follow the directions in the next section ("Testing").
 
 
 
@@ -59,7 +59,7 @@ To test the model:
 python test.py --dataroot <datapath> --name <experiment_name> --gpu_ids 0 --display_id 0 
 --loadSize 256 --fineSize 256 --model pix2pix --which_model_netG fusion
 ```
-- The test results will be saved to a html file here: `./results/<project_name>/test_latest/index.html`.
+- The test results will be saved to a html file here: `./results/<experiment_name>/test_latest/index.html`.
 
 ### Issues
 
