@@ -72,5 +72,10 @@ python test.py --dataroot <datapath> --name <project_name> --gpu_ids 0 --display
 ## Reference
 If you find our work useful in your research please consider citing our paper:
 ```
-Coming soon...
+@article{chen2019ganpop,
+  title={GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images},
+  author={Chen, Mason T and Mahmood, Faisal and Sweer, Jordan A and Durr, Nicholas J},
+  journal={arXiv preprint arXiv:1906.05360},
+  year={2019}
+}
 ```
