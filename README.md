@@ -3,7 +3,7 @@ Code, dataset, and trained models for "GANPOP: Generative Adversarial Network Pr
 
 If you use this code, please cite:
 
-Chen, Mason T., et al. "GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images." arXiv preprint arXiv:1906.05360 (2019).
+Chen, Mason T., et al. "GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images." IEEE Transactions on Medical Imaging (2019).
 
 
 <img src="https://github.com/masontchen/GANPOP_Pytorch/blob/master/imgs/Fig_1.jpg" width="512"/> 
@@ -89,7 +89,8 @@ If you find our work useful in your research please consider citing our paper:
 @article{chen2019ganpop,
   title={GANPOP: Generative Adversarial Network Prediction of Optical Properties from Single Snapshot Wide-field Images},
   author={Chen, Mason T and Mahmood, Faisal and Sweer, Jordan A and Durr, Nicholas J},
-  journal={arXiv preprint arXiv:1906.05360},
-  year={2019}
+  journal={IEEE Transactions on Medical Imaging},
+  year={2019},
+  publisher={IEEE}
 }
 ```
